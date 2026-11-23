@@ -16,7 +16,7 @@ def IsEmpty():
 
 
 def IsFull():
-    if TailPointer < 5 and TailPointer > 3:
+    if TailPointer == 4:
         return True
     return False
 
